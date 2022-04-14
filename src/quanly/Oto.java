@@ -27,4 +27,12 @@ public class Oto extends PhuongTien implements Comparable<Oto>{
     public int compareTo(Oto o) {
         return this.getGia() - o.getGia();
     }
+
+    @Override
+    public String toString() {
+        return "O to: " + getTen() +
+                ", gia: " + getGia() +
+                ", so cho: " + soCho +
+                ".";
+    }
 }

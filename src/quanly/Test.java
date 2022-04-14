@@ -35,7 +35,7 @@ public class Test {
         Oto ot4 = new Oto("Toyota", "Xanh", "abc", 2500, 4);
         qlot.sua("aa", ot4);
         qlot.in();
-        qlot.xoa("Suzuki");
+        qlot.xoa("ad");
         qlot.in();
     }
 }
